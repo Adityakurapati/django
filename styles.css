@@ -4,5 +4,31 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: rgb(50, 50, 95);
+    outline:none;
+    color: wheat;
+    background-color: rgb(228, 230, 232);
+}
+header{
+    padding:1.2rem;
+    background-color: rgb(73, 39, 105);
+    
+}
+header:first-child{
+    font-size:24px;
+    font-weight: bolder;
+    color: white;
+}
+
+main{
+    margin: 3rem auto;
+    padding-left: .9rem;
+    color:black
+}
+footer{
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 100vw;
+    padding:1.2rem;
+    background-color: rgb(73, 39, 105);
 }
